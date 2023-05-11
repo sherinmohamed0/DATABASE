@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sherin\\Downloads\\github database (2)\\github database\\github database\\ZewailCityScienceWeek\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj": {}
+    "E:\\DB github\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sherin\\Downloads\\github database (2)\\github database\\github database\\ZewailCityScienceWeek\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj": {
+    "E:\\DB github\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sherin\\Downloads\\github database (2)\\github database\\github database\\ZewailCityScienceWeek\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
+        "projectUniqueName": "E:\\DB github\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
         "projectName": "ZewailCiryScienceWeek",
-        "projectPath": "C:\\Users\\Sherin\\Downloads\\github database (2)\\github database\\github database\\ZewailCityScienceWeek\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
-        "packagesPath": "C:\\Users\\Sherin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sherin\\Downloads\\github database (2)\\github database\\github database\\ZewailCityScienceWeek\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek\\obj\\",
+        "projectPath": "E:\\DB github\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "E:\\DB github\\DATABASE\\ZewailCiryScienceWeek\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sherin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

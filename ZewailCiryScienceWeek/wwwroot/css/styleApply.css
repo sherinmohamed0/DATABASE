@@ -44,7 +44,7 @@ img {
 
 .wrapper {
   height: 100vh;
-  background: #f9f6f1;
+  background-color: lightgray;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -72,14 +72,14 @@ img {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #e9e0cf;
+  background-color:darkgray;
   margin-right: 78px;
   position: relative; }
   .wizard > .steps li a:before {
     content: "";
     width: 58px;
     height: 2px;
-    background: #e9e0cf;
+    background-color:darkgray;
     position: absolute;
     right: 22px;
     top: 5px; }
@@ -87,15 +87,15 @@ img {
     content: "";
     width: 0;
     height: 2px;
-    background: #6d7f52;
+    background-color:darkgray;
     position: absolute;
     left: -68px;
     top: 5px;
     transition: all 0.6s ease; }
 .wizard > .steps li.first a {
-  background: #6d7f52; }
+  background-color:darkslategray; }
 .wizard > .steps li.checked a {
-  background: #6d7f52; }
+  background-color:darkslategray; }
   .wizard > .steps li.checked a:after {
     width: 58px; }
 .wizard > .steps li:last-child a {
