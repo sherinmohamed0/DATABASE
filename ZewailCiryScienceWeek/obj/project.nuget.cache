@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0i2aIFgpyOb/mMc8ZwKYRv6kQOO+Uoc8a148dW5OmtDHcUXFADilkPigvwwlXzFC6DueNzOS3+gPAaqIpEgZBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\Desktop\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
+=======
+  "dgSpecHash": "9gw9Bje3YDfS7TPGm1FwI/K0yKc5Mqx15kDb821N4gXPRsvQOd41gxLOfSm2u65tsmqtuWubUH51VuqfkA5m4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sherin\\source\\repos\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
+>>>>>>> 07e73a6198a21c6ce62351cebaf42a465d4218df
   "expectedPackageFiles": [],
   "logs": []
 }

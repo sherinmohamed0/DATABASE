@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\hp\\Desktop\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj": {}
   },
   "projects": {
@@ -12,13 +13,30 @@
         "projectPath": "C:\\Users\\hp\\Desktop\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hp\\Desktop\\DATABASE\\ZewailCiryScienceWeek\\obj\\",
+=======
+    "C:\\Users\\Sherin\\source\\repos\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Sherin\\source\\repos\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Sherin\\source\\repos\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
+        "projectName": "ZewailCiryScienceWeek",
+        "projectPath": "C:\\Users\\Sherin\\source\\repos\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
+        "packagesPath": "C:\\Users\\Sherin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sherin\\source\\repos\\DATABASE\\ZewailCiryScienceWeek\\obj\\",
+>>>>>>> 07e73a6198a21c6ce62351cebaf42a465d4218df
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "C:\\Users\\Sherin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 07e73a6198a21c6ce62351cebaf42a465d4218df
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
