@@ -46,7 +46,7 @@ img {
 }
 .wrapper {
 	height: 100vh;
-	background: #f9f6f1;
+	background-color:lightgray;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -75,14 +75,14 @@ img {
 	    width: 12px;
 	    height: 12px;
 	    border-radius: 50%;
-	    background: #e9e0cf;
+	    background-color:darkgray;
 	    margin-right: 78px;
 	    position: relative;
 	    &:before {
 	    	content: "";
 	    	width: 58px;
 	    	height: 2px;
-	    	background: #e9e0cf;
+	    	background-color:darkgray;
 	    	position: absolute;
 	    	right: 22px;
 	    	top: 5px;
