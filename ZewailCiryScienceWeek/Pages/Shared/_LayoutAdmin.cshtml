@@ -34,57 +34,18 @@
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 
     <!--Admin promo-->
-    <link href="~/css/stylePromo.css" rel = "stylesheet"/>
-    
+    <link href="~/css/stylePromo.css" rel="stylesheet" />
+
 
 </head>
 <body>
-    <header id="header" class="d-flex align-items-center p-4 ">
-        <div class="container-fluid container-xxl d-flex align-items-center justify-content-between navbar order-last order-lg-0" id="navbar">
-
-            <div id="logo" >
-                <!-- Uncomment below if you prefer to use a text logo -->
-                <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
-                <a href="index.html" class="scrollto"><img src="~/img/MainPagePic/Artboard 3 (1).png" alt="" title=""></a>
-            </div>
-            <ul >
-                <li><a class="nav-link scrollto" href="/Index">Home</a></li>
-                <li><a class="nav-link scrollto" href="/Mainpages/AboutUs">About ZCSF</a></li>
-                <li><a class="nav-link scrollto" href="/MainPages/Conference">Conference</a></li>
-                <li><a class="nav-link scrollto" href="/MainPages/Team">Team</a></li>
-                <li><a class="nav-link scrollto" href="/MainPages/Speakers">Speakers</a></li>
-                <li><a class="nav-link scrollto" href="/MainPages/ContactUs">Contact</a></li>
-                <div class="dropdown">
-                    <button class="select-control buy-tickets scrollto nav-link" href="#supporters">Admin</button>
-                     <i class="zmdi zmdi-caret-down"></i>
-                     <ul class="dropdown-menu">
-                     <li><a class="nav-link scrollto" href="/Admin/visitor">Visitors Info</a></li>
-                    <li><a class="nav-link scrollto" href="/Admin/tickets">Tickets</a></li>
-                    <li><a class="nav-link scrollto" href="/Admin/promocode">Add Promo Code</a></li>
-                    </ul>
-                </div>
-
-
-
-            </ul>
-                <!--=====================================================-->
-
-
-                <i class="bi bi-list mobile-nav-toggle"></i>
-
-        </div>
-       
-       
-</header>
-    </header><!-- End Header -->
-
     <div>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-        <!-- ======= Footer ======= -->
+    <!-- ======= Footer ======= -->
     <footer id="footer" style="height: 100vh" class=" d-flex justify-content-center align-items-center">
         <div class="footer-top">
             <div class="p-5">
@@ -130,7 +91,7 @@
             </div>
         </div>
 
-</footer>
+    </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -148,7 +109,7 @@
     <script src="~/js/datatables-simple-demo.js"></script>
     <script src="~/js/sitePromo.js"></script>
 
-    
+
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
