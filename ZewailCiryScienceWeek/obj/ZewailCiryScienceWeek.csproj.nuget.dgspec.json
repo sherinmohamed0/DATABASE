@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fatma taha\\Desktop\\DataBaseProject\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj": {}
+    "C:\\Users\\fatma taha\\Desktop\\ZC\\DataBase\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fatma taha\\Desktop\\DataBaseProject\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj": {
+    "C:\\Users\\fatma taha\\Desktop\\ZC\\DataBase\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fatma taha\\Desktop\\DataBaseProject\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
+        "projectUniqueName": "C:\\Users\\fatma taha\\Desktop\\ZC\\DataBase\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
         "projectName": "ZewailCiryScienceWeek",
-        "projectPath": "C:\\Users\\fatma taha\\Desktop\\DataBaseProject\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
+        "projectPath": "C:\\Users\\fatma taha\\Desktop\\ZC\\DataBase\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
         "packagesPath": "C:\\Users\\fatma taha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fatma taha\\Desktop\\DataBaseProject\\DATABASE\\ZewailCiryScienceWeek\\obj\\",
+        "outputPath": "C:\\Users\\fatma taha\\Desktop\\ZC\\DataBase\\DATABASE\\ZewailCiryScienceWeek\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fatma taha\\AppData\\Roaming\\NuGet\\NuGet.Config",
