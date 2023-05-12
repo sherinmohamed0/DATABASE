@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sherin\\source\\repos\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
+      "projectUniqueName": "E:\\DB github\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
       "projectName": "ZewailCiryScienceWeek",
-      "projectPath": "C:\\Users\\Sherin\\source\\repos\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
-      "packagesPath": "C:\\Users\\Sherin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sherin\\source\\repos\\DATABASE\\ZewailCiryScienceWeek\\obj\\",
+      "projectPath": "E:\\DB github\\DATABASE\\ZewailCiryScienceWeek\\ZewailCiryScienceWeek.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "E:\\DB github\\DATABASE\\ZewailCiryScienceWeek\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

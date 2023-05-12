@@ -44,7 +44,7 @@ img {
 
 .wrapper {
   height: 100vh;
-  background-color: lightgray;
+  background-color: #E5EBEB;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -132,15 +132,16 @@ img {
   text-align: center; }
 
 h3 {
-  font-family: "Muli-SemiBold";
-  font-size: 22px;
-  color: #453e79;
-  text-transform: uppercase;
-  letter-spacing: 7px;
-  padding: 5px 15px;
-  display: inline-block;
-  border: 1px solid #dad8e4;
-  margin-bottom: 75px; }
+    font-family: "Muli-SemiBold";
+    font-size: 22px;
+    color: #023b3d;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 5px 15px;
+    display: inline-block;
+    border: 1px solid #dad8e4;
+    margin-bottom: 75px;
+}
 
 p {
   font-family: "Muli-SemiBold";

@@ -6,7 +6,7 @@
     Layout = "_LayoutAdmin";
 }
 
-
+<body>
 <header id="header" class="d-flex align-items-center p-4 ">
     <div class="container-fluid container-xxl d-flex align-items-center justify-content-between navbar order-last order-lg-0" id="navbar">
 
@@ -19,8 +19,8 @@
             <li><a class="nav-link scrollto" href="/Index">Home</a></li>
             <li><a class="select-control buy-tickets scrollto nav-link" href="#supporters">Visitore Info</a></li>
             <li><a class="nav-link scrollto" href="/Admin/visitor">Tickets</a></li>
-            <li><a class="nav-link scrollto" href="/Admin/tickets">Add Promo Code</a></li>
-            <li><a class="nav-link scrollto" href="/Admin/promocode">Admin</a></li>
+            <li><a class="nav-link scrollto" href="/Admin/Promotable">Promo Codes</a></li>
+            <li><a class="nav-link scrollto" href="/Admin/AdminMain">Admin</a></li>
         </ul>
         <!--=====================================================-->
 
@@ -34,11 +34,11 @@
 
 
 
-<div class="section-wrapper">
+<div class="form-body" style = "background-color: #E5EBEB;">
     <section class="m-4 p-5">
         <h1 class="h_visitor">Visitors Info</h1>
    
-    <table class=" visitor_table" style="width: 100%; margin: 0 auto;">
+    <table class=" visitor_table" style="width: 100%; margin: 0 auto; backround-color:#4D7577">
         <thead class="thead-dark">
             <tr>
                 <th scope="col">#</th>
@@ -133,6 +133,8 @@
     </div>
 </section>
 </div>
+
+</body>
 <script>
     var currentEditRow = null;
 
@@ -203,24 +205,24 @@
     h1.h_visitor {
         margin: 30px auto; /* Add margin to create space between the title and the table */
         text-align: center;
-        color: white;
-        background-color: black;
+        color: #023b3d;
+        background-color:#E5EBEB ;
         text-transform: uppercase;
         font-weight: bold;
         padding: 5px;
-        font-size: 20px;
-        width: 30%;
+        font-size: 40px;
+        width: 50%;
        
     }
 
     h_visitor{
-        color: white;
-        background-color: black;
+        color: #023b3d;
+        background-color: #E5EBEB;
         margin: 50px auto;
         text-transform: uppercase;
         font-weight: bold;
-        padding: 20px; /* Increase the padding to add more space */
-        font-size: 24px; /* Increase the font size */
+        padding: 40px; /* Increase the padding to add more space */
+        font-size: 20px; /* Increase the font size */
     }
 
     visitor_table {
@@ -228,27 +230,30 @@
         border-collapse: collapse;
         width: 80%;
         margin: 100px auto;
-        background-color: lightgray; /* Change the background color of the table */
-        color: black; /* Change the text color */
+        background-color: #C9D5D6; /* Change the background color of the table */
+        color:white; /* Change the text color */
        
     }
 
 
     .thead-dark th {
-        background-color: black; /* Change the background color of the table header */
-        color: coral; /* Change the text color in the table header */
+        background-color: #023b3d; /* Change the background color of the table header */
+        color: white; /* Change the text color in the table header */
         text-transform: uppercase;
     }
 
 
     .custom-table input[type="text"] {
-        background-color: #e6e6e6; /* Set the background color of text boxes */
+        background-color: #023b3d; /* Set the background color of text boxes */
         border:  #cccccc;
  
     }
 
 
+    th1{
+        color:white;
 
+    }
     th,
     td {
         border: 1px solid black;
@@ -256,13 +261,16 @@
         font-weight: bold;
 
     }
+    td{
+        color:#023b3d;
+    }
 
     th {
         background-color: #f2f2f2;
     }
 
     tr:nth-child(even) {
-        background-color: #dddddd;
+        background-color:#C9D5D6;
     }
 
     .edit-popup,
@@ -272,11 +280,18 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: darksalmon;
+        background-color: #C9D5D6;
        
-        padding: 20px;
+       
         border: 1px solid #ccc;
         z-index: 1;
+
+        color: #023b3d;
+        margin: 50px auto;
+        font-weight: bold;
+        padding: 40px; /* Increase the padding to add more space */
+        font-size: 20px; /* Increase the font size */
+
     }
 
         .edit-popup input {
@@ -292,6 +307,6 @@
     }
 
         .delete-popup button {
-            margin: 10px;
+            margin: 20px;
         }
 </style>

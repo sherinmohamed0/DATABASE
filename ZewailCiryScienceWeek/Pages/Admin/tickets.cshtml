@@ -4,6 +4,8 @@
     Layout = "_LayoutAdmin";
 }
 
+
+<body>
 <header id="header" class="d-flex align-items-center p-4 ">
     <div class="container-fluid container-xxl d-flex align-items-center justify-content-between navbar order-last order-lg-0" id="navbar">
 
@@ -16,8 +18,8 @@
             <li><a class="nav-link scrollto" href="/Index">Home</a></li>
             <li><a class="nav-link scrollto" href="/Admin/visitor">Visitors Info</a></li>
             <li><a class="select-control buy-tickets scrollto nav-link" href="#supporters">Tickets</a></li>
-            <li><a class="nav-link scrollto" href="/Admin/tickets">Add Promo Code</a></li>
-            <li><a class="nav-link scrollto" href="/Admin/promocode">Admin</a></li>
+            <li><a class="nav-link scrollto" href="/Admin/Promotable">Promo Codes</a></li>
+            <li><a class="nav-link scrollto" href="/Admin/AdminMain">Admin</a></li>
         </ul>
         <!--=====================================================-->
 
@@ -32,21 +34,21 @@
 
 
 
-<section>   
+<section class="form-body">    
 <div id="layoutSidenav">
-        <div id="layoutSidenav_content">
+        <div id="layoutSidenav_content" style="background-color:#E5EBEB">
            
                 <div class="container-fluid px-4">
-                <div class="mt-4" style="padding-top: 50px;">
-                <h1 class="mt-4" style= "display: inline; padding: 5px; color:darkslategray ;text-transform: uppercase;">Tickets</h1>
+                <div class="mt-4" style="padding-top: 40px;">
+                <h1 class="mt-4" style= "display: inline; padding: 5px; color:#023b3d ;text-transform: uppercase;">Tickets</h1>
                 </div>
 
                         <div class="card-body">
-                            <table id="datatablesSimple" style="color:Black; background-color:lightslategray">
+                    <table id="datatablesSimple" style="color:white; background-color:#4D7577   ">
                                 <thead>
                                     <tr style="text-transform: uppercase">
-                                            <th>Name</th>
                                             <th>Ticket ID</th>
+                                            <th>Visitor ID</th>
                                             <th>Type</th>
                                             <th>Capacity</th>
                                             <th>Day</th>
@@ -55,8 +57,9 @@
                                 </thead>
                                 <tfoot>
                                     <tr>
-                                        <th>Name</th>
+                                        
                                             <th>Ticket ID</th>
+                                            <th>Visitor ID</th>
                                             <th>Type</th>
                                             <th>Capacity</th>
                                             <th>Day</th>
@@ -65,64 +68,64 @@
                                 </tfoot>
                                 <tbody>
                                     <tr>
-                                        <td>Tiger Nixon</td>
                                         <td>#233</td>
+                                        <td>4567896</td>
                                         <td>Regular</td>
                                         <td>1</td>
                                         <td>Sunday</td>
                                         <td><button class="btn-remove" onclick="removeRow(this)">-</button></td>
                                     </tr>
                                     <tr>
-                                        <td>Garrett Winters</td>
                                         <td>#456</td>
+                                        <td>9876543</td>
                                         <td>Group</td>
                                         <td>3</td>
                                         <td>Tuesday</td>
                                         <td><button class="btn-remove" onclick="removeRow(this)">-</button></td>
                                     </tr>
                                     <tr>
-                                        <td>Tiger Nixon</td>
                                         <td>#257</td>
+                                        <td>8765432</td>
                                         <td>Regular</td>
                                         <td>1</td>
                                         <td>Monday</td>
                                         <td><button class="btn-remove" onclick="removeRow(this)">-</button></td>
                                     </tr>
                                     <tr>
-                                        <td>Tiger Nixon</td>
                                         <td>#193</td>
+                                        <td>3457852</td>
                                         <td>VIP</td>
                                         <td>1</td>
                                         <td>Sunday</td>
                                         <td><button class="btn-remove" onclick="removeRow(this)">-</button></td>
                                     </tr>
                                     <tr>
-                                        <td>Tiger Nixon</td>
                                         <td>#575</td>
+                                        <td>365880</td>
                                         <td>Group</td>
                                         <td>5</td>
                                         <td>Saturday</td>
                                         <td><button class="btn-remove" onclick="removeRow(this)">-</button></td>
                                     </tr>
                                     <tr>
-                                        <td>Brielle Williamson</td>
                                         <td>#458</td>
+                                        <td>5376483</td>
                                         <td>New York</td>
                                         <td>61</td>
                                         <td>Wednesday</td>
                                         <td><button class="btn-remove" onclick="removeRow(this)">-</button></td>
                                     </tr>
                                     <tr>
-                                        <td>Winters Garrett</td>
                                         <td>#126</td>
+                                        <td>3574692</td>
                                         <td>Group</td>
                                         <td>3</td>
                                         <td>Tuesday</td>
                                         <td><button class="btn-remove" onclick="removeRow(this)">-</button></td>
                                     </tr>
                                     <tr>
-                                        <td>Nixon Winters</td>
                                         <td>#399</td>
+                                        <td>632843</td>
                                         <td>Regular</td>
                                         <td>1</td>
                                         <td>Monday</td>
@@ -137,20 +140,21 @@
         </div>
     </div>
 </section>
+</body>
 <style>
     table {
-        background-color: gr;
+        background-color: #E5EBEB  ;
     }
     h1{
         padding: 5px; 
-        color: black;
+        color: #E5EBEB  ;
 
     }
     label{
-        color :black;
+        color :#E5EBEB  ;
     }
     div {
-        color : black;
+        color : #023b3d  ;
     }
     .btn-remove {
         border: 2px solid black; /* set border to black */
@@ -168,7 +172,7 @@
     }
 
     .btn-remove:hover {
-        background-color: black; /* change the background color when hovering */
+        background-color: #f5f5f5 ; /* change the background color when hovering */
         color: white; /* change the font color when hovering */
     }
 </style>
